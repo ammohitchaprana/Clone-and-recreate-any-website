@@ -219,12 +219,12 @@ export default function HomePage() {
               <div className="flex gap-8">
                 <a
                   className="contents"
-                  href="https://github.com/mendableai/open-lovable"
+                  href="https://github.com/liveupx"
                   target="_blank"
                 >
                   <ButtonUI variant="tertiary">
                     <GithubIcon />
-                    Use this Template
+                    Follow us
                   </ButtonUI>
                 </a>
               </div>
@@ -251,7 +251,7 @@ export default function HomePage() {
                 href="#"
                 onClick={(e) => e.preventDefault()}
               >
-                Powered by Firecrawl.
+                Powered by Liveupx.com
               </Link>
             </div>
           </div>
@@ -297,7 +297,7 @@ export default function HomePage() {
                       
                       {/* Selection message */}
                       <div className="flex-1 text-body-input text-accent-black">
-                        Select which site to clone from the results below
+                        Select your ref site from the results below
                       </div>
                       
                       {/* Search again button */}
@@ -628,7 +628,7 @@ export default function HomePage() {
                                   `}
                                 >
                                   {additionalInstructions.trim() && <div className="button-background absolute inset-0 rounded-10 pointer-events-none" />}
-                                  <span className="px-6 relative">Apply & Clone</span>
+                                  <span className="px-6 relative">Apply to ref site</span>
                                   <svg 
                                     width="20" 
                                     height="20" 
@@ -648,7 +648,7 @@ export default function HomePage() {
                           <>
                             <div className="text-white text-center mb-3">
                               <p className="text-base font-semibold mb-0.5">{result.title}</p>
-                              <p className="text-[11px] opacity-80">Choose how to clone this site</p>
+                              <p className="text-[11px] opacity-80">what edits do you wanna make to the ref site</p>
                             </div>
                             
                             <div className="flex gap-3 justify-center">
